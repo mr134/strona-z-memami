@@ -1,3 +1,20 @@
+
+
+.heared{
+    position: fixed;
+    text-align: left;
+    background-color: #212121;
+    width: 100vw;
+    z-index: 1000;
+}
+
+@media (max-width: 500px) {
+    .heared {
+        text-align: center;
+    }
+}
+
+
 .navLinks {
     padding: 20px;
     color: white;
