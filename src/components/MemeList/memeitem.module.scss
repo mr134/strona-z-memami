@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    max-width: 500px; 
+    
+}
+.btnContainer{
+    margin: 0 auto;
+}
+.btnupvote {
+    background: green!important;
+    color: white!important;
+    font-size: 2em; 
+    font-weight: bold;
+    width: 50%;
+}
+.btndownvote {
+    background: red!important;
+    color: white!important;
+    font-size: 2em;
+    font-weight: bold;
+    width: 50%;
+} 
+.active {
+    color: yellow;
+}
+
+.memeTitle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.memeItemContainer {
+    padding-bottom: 40px;
+}
